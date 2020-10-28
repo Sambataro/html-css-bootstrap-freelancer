@@ -43,16 +43,32 @@ header h2 {
   margin: 0 48px;
 }
 
-.divider {
-  height: 4px;
-  background-color: white;
-  margin: 15px 0;
-  padding: 0;
+.white_divider {
+  vertical-align: middle;
+  display: inline-block;
+  width: 100px;
+  border-top: 10px solid white;
+  border-radius: 5px;
 }
 
-.glyphicon-star {
+.white {
   font-size: 30px;
-  padding: 0;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.black_divider {
+  vertical-align: middle;
+  display: inline-block;
+  width: 100px;
+  border-top: 10px solid black;
+  border-radius: 5px;
+}
+
+.black {
+  font-size: 30px;
+  vertical-align: middle;
+  margin: 10px;
 }
 /* /jumbotron */
 
