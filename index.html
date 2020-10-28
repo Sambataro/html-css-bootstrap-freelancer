@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   </head>
   <body>
@@ -15,7 +15,7 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-xs-6">
-              <h2>START BOOSTRAP</h2>
+              <a href="#">START BOOSTRAP</a>
             </div>
             <div class="col-xs-6 text-right">
               <!-- hamburger visibile solo in xs -->
@@ -24,9 +24,9 @@
               <!-- nav visibile da xs in su -->
               <nav class="hidden-xs text-center">
                 <ul>
-                  <li>PORTFOLIO</li>
-                  <li>ABOUT</li>
-                  <li>CONTACT</li>
+                  <li><a href="#">PORTFOLIO</a></li>
+                  <li><a href="#">ABOUT</a> </li>
+                  <li><a href="#">CONTACT</a> </li>
                 </ul>
               </nav>
               <!-- /nav visibie da xs in su  -->
@@ -46,7 +46,7 @@
              </div>
              <!-- /immagine e titolo jumbotron -->
 
-             <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 text-center">
+             <div class="col-xs-12 text-center">
                <!-- divisore con stella -->
                 <hr class="white_divider"><span class="glyphicon glyphicon-star white"></span><hr class="white_divider">
               </div>
@@ -57,7 +57,6 @@
               </div>
             </div>
           </div>
-        </div>
         <!-- jumbotron -->
         <!-- main -->
         <main>
@@ -67,7 +66,7 @@
               <h3 class="text-center text-uppercase">Portfolio</h3>
               <!-- titolo main -->
               <!-- divisore con stella -->
-             <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 text-center">
+             <div class="col-xs-12 text-center">
                <hr class="black_divider"><span class="glyphicon glyphicon-star black"></span><hr class="black_divider">
              </div>
               </div>
@@ -77,31 +76,50 @@
                 <div class=" col-sm-6 col-md-4">
                   <div class="portfolio_item">
                    <img class="img_item" src="img/cabin.png" alt="">
+                   <div class="portfolio_item_layover">
+                     <a href="#"><i class="fas fa-plus"></i></a>
+                   </div>
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                   <div class="portfolio_item">
                    <img class="img_item" src="img/cake.png" alt="">
+                   <div class="portfolio_item_layover">
+                     <a href="#"><i class="fas fa-plus"></i></a>
+                   </div>
                  </div>
+
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                   <div class="portfolio_item">
                     <img class="img_item" src="img/circus.png" alt="">
+                    <div class="portfolio_item_layover">
+                      <a href="#"><i class="fas fa-plus"></i></a>
+                    </div>
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                   <div class="portfolio_item">
                    <img class="img_item" src="img/game.png" alt="">
+                   <div class="portfolio_item_layover">
+                     <a href="#"><i class="fas fa-plus"></i></a>
+                   </div>
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                   <div class="portfolio_item">
                    <img class="img_item" src="img/safe.png" alt="">
+                   <div class="portfolio_item_layover">
+                     <a href="#"><i class="fas fa-plus"></i></a>
+                   </div>
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                   <div class="portfolio_item">
                     <img class="img_item" src="img/submarine.png" alt="">
+                    <div class="portfolio_item_layover">
+                      <a href="#"><i class="fas fa-plus"></i></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -118,7 +136,7 @@
                  <h3 class="text-uppercase">about</h3>
                  <!-- / titolo about -->
                  <!-- divisore con stella  -->
-                 <div class="col-xs-12">
+                 <div class="col-xs-12 text-center">
                    <hr class="white_divider"><span class="glyphicon glyphicon-star white"></span><hr class="white_divider">
                 </div>
                 <!-- divisore con stella -->
@@ -149,7 +167,7 @@
                 <h3 class="text-uppercase text-center">contact me</h3>
               </div>
               <!-- /titolo contact  -->
-              <div class="col-xs-8 col-xs-offset-2 text-center">
+              <div class="col-xs-12 text-center">
                 <!-- divisore con stella -->
                     <hr class="black_divider"><span class="glyphicon glyphicon-star black"></span><hr class="black_divider">
                 <!-- / divisore con stella  -->
@@ -157,10 +175,10 @@
              <div class="col-xs-12 text-center">
                <!-- form  -->
                <form>
-                 <input type="data" placeholder="Name">
+                 <input type="text" placeholder="Name">
                  <input type="email" placeholder="Email Adress">
-                 <input type="data" placeholder="Phone Number">
-                 <input type="data" placeholder="Message">
+                 <input type="text" placeholder="Phone Number">
+                 <input type="text" placeholder="Message">
                  <input id="send" class="btn btn-default pull-left" type="submit" value="Send">
                </form>
              </div>
